@@ -437,7 +437,8 @@ body {
 
 @media (max-width: 600px) {
 
-    .column {
+    .column,
+    .name-container {
         width: 100%;
     }
 
