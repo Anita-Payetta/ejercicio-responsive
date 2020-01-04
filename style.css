@@ -404,3 +404,54 @@ body {
             RESPONSIVE
 =========================================== 
 */
+
+@media (max-width: 900px) {
+    
+    .column {
+        width: 80%;
+    }
+
+    .content-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .about-me,
+    .info,
+    .info-list {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info-list {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .contact {
+        width: 98%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .column {
+        width: 100%;
+    }
+
+    .about-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .timeline-container,
+    .blog-post,
+    .blog-post-img {
+        width: 99%;
+    }
+}
